@@ -21,19 +21,30 @@
 <!-------------------------------------Navigation--------------------------------------------->
 
 <body>
-    <header>
-        <h2>Mauelle Studios</h2>
-        <div class="nav-right">
-            <nav>
+    <header class="site-header">
+        <h2 class="site-brand">Mauelle Studios</h2>
+
+        <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false"
+            aria-controls="primary-navigation" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="nav-right" id="primary-navigation">
+            <nav aria-label="Main navigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">My Journey</a></li>
-                    <li><a href="projects.html"> Projects</a></li>
+                    <li><a href="projects.html">Projects</a></li>
                     <li><a href="skills.html">Skills</a></li>
                     <li><a href="learning.html">Learning</a></li>
                 </ul>
             </nav>
-            <a href="contact.html" class="contact-button">Let's work together</a>
+
+            <a href="contact.html" class="contact-button">
+                Let's work together
+            </a>
         </div>
     </header>
 
@@ -54,150 +65,187 @@
                     Languages and technologies I use to build
                     interactive and responsive web experiences.
                 </p>
-                </h2>
+            </div>
             </div>
 
             <div class="skills-grid">
 
                 <article class="skills-card">
+                    <div class="skill-logo">
+                        <img src="assets/images/html.png" alt="HTML logo">
+                    </div>
                     <h3 title="Hyper-Text Mark-up Language">HTML</h3>
-                    <p>Structuring content and creating semantic markup.</p>
+                    <p>Writing clean code and solving problems.</p>
                 </article>
 
                 <article class="skills-card">
+                    <div class="skill-logo">
+                        <img src="assets/images/css.png" alt="CSS logo">
+                    </div>
                     <h3 title="Cascading Style Sheets">CSS</h3>
-                    <p> Styling and layout with mordern CSS.</p>
+                    <p>Styling and layout with modern CSS.</p>
                 </article>
 
                 <article class="skills-card">
+                    <div class="skill-logo">
+                        <img src="assets/images/java-script.png" alt="JavaScript logo">
+                    </div>
                     <h3>JavaScript</h3>
-                    <p>Adding interactivity and dynamic functionality</p>
+                    <p>Adding interactivity and dynamic functionality.</p>
                 </article>
 
                 <article class="skills-card">
+                    <div class="skill-logo">
+                        <img src="assets/images/python.png" alt="Python logo">
+                    </div>
                     <h3>Python</h3>
-                    <p>Writing Clean code and solving problems.</p>
+                    <p>Writing clean code and solving problems.</p>
                 </article>
-            </div>
-        </section>
 
-        <section class="skills-section">
-            <div class="skills-intro">
-                <h2>UX / UI Design</h2>
-                <p>
-                    Design skills I use to create meaningful
-                    and user-centered experiences.
-                </p>
             </div>
 
-            <div class="skills-grid">
-                <article class="skills-card">
-                    <h3>Figma</h3>
-                    <p>UI design, prototyping and collaboration.</p>
-                </article>
-
-                <article class="skills-card">
-                    <h3>Wireframing</h3>
-                    <p>Planning layout and user flow.</p>
-                </article>
-
-                <article class="skills-card">
-                    <h3>Prototyping</h3>
-                    <p>Bringing ideas to life with interaction.</p>
-                </article>
-
-                <article class="skills-card">
-                    <h3>User Research</h3>
-                    <p>Understanding users and their needs.</p>
-                </article>
-            </div>
-        </section>
-
-        <section class="skills-section">
-            <div class="skills-intro">
-                <h2>Tools & Technologies</h2>
-                <p>
-                    Other tools and platforms that support
-                    my design and development workflow.
-                </p>
-            </div>
-
-            <div class="skills-grid">
-                <article class="skills-card">
-                    <h3>Github</h3>
-                    <p>Version control and collaborative development.</p>
-                </article>
-
-                <article class="skills-card">
-                    <h3>VS Code</h3>
-                    <p>Code editor for development and debugging.</p>
-                </article>
-
-                <article class="skills-card">
-                    <h3>Canva</h3>
-                    <p>Designing graphics and visual content.</p>
-                </article>
-
-                <article class="skills-card">
-                    <h3>Notion</h3>
-                    <p>Organising notes, ideas and projects.</p>
-                </article>
-            </div>
-        </section>
-
-        <section class="skills-learning">
-
-            <div class="learning-content">
-                <h2>Always Learning</h2>
-                <p>
-                    I'm continuously developing my skills through
-                    personal projects, coursework and hands-on practice.
-                </p>
-            </div>
-
-            <div class="closing-content">
-                <span class="closing-label">A FINAL THOUGHT</span>
-
-                <p class="closing-statement">
-                    Designing, building and learning along the way.
-                </p>
-
-                <span class="closing-symbol">✦</span>
-            </div>
-
-        </section>
-
-        <!--------------------------------------FOOTER-------------------------------------->
-        <footer>
-            <div class="footer-content">
-                <h3>Mauelle Studios</h3>
-
-                <p>
-                    Designing thoughtful digital experiences through UX and front-end development.
-                </p>
-
-                <div class="footer-links">
-                    <a href="mailto:preciousche3008@gmail.com">
-                        Email
-                    </a>
-
-                    <a href="https://github.com/preciousuche3008-cloud" target="_blank" rel="noopener noreferrer">
-                        GitHub
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/precious-uma-b2a4a0311" target="_blank"
-                        rel="noopener noreferrer">
-                        LinkedIn
-                    </a>
-
+            <section class="skills-section">
+                <div class="skills-intro">
+                    <h2>UX / UI Design</h2>
+                    <p>
+                        Design skills I use to create meaningful
+                        and user-centered experiences.
+                    </p>
                 </div>
 
-                <p class="copyright">
-                    © 2026 Precious Uma. All rights reserved.
-                </p>
-            </div>
-        </footer>
+                <div class="skills-grid">
+                    <article class="skills-card">
+                        <div class="skill-logo">
+                            <img src="assets/images/figma.png" alt="Figma logo">
+                        </div>
+                        <h3>Figma</h3>
+                        <p>UI design, prototyping and collaboration.</p>
+                    </article>
+
+                    <article class="skills-card">
+                        <div class="skill-logo">
+                            <img src="assets/images/wireframing.png" alt="Wireframing illustration">
+                        </div>
+                        <h3>Wireframing</h3>
+                        <p>Planning layout and user flow.</p>
+                    </article>
+
+                    <article class="skills-card">
+                        <div class="skill-logo">
+                            <img src="assets/images/prototyping.png" alt="Prototyping illustration">
+                        </div>
+                        <h3>Prototyping</h3>
+                        <p>Bringing ideas to life with interaction.</p>
+                    </article>
+
+                    <article class="skills-card">
+                        <div class="skill-logo">
+                            <img src="assets/images/user-research.png" alt="User Research illustration">
+                        </div>
+                        <h3>User Research</h3>
+                        <p>Understanding users and their needs.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="skills-section">
+                <div class="skills-intro">
+                    <h2>Tools & Technologies</h2>
+                    <p>
+                        Other tools and platforms that support
+                        my design and development workflow.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skills-card">
+                        <div class="skill-logo">
+                            <img src="assets/images/github.png" alt="GitHub logo">
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>Version control and collaborative development.</p>
+                    </article>
+
+                    <article class="skills-card">
+                        <div class="skill-logo">
+                            <img src="assets/images/Vs-logo.png" alt="VS Code logo">
+                        </div>
+                        <h3 title="Visual Studio Code">VS Code</h3>
+                        <p>Code editor for development and debugging.</p>
+                    </article>
+
+                    <article class="skills-card">
+                        <div class="skill-logo">
+                            <img src="assets/images/canva-icon.svg" alt="Canva logo">
+                        </div>
+                        <h3>Canva</h3>
+                        <p>Designing graphics and visual content.</p>
+                    </article>
+
+                    <article class="skills-card">
+                        <div class="skill-logo">
+                            <img src="assets/images/notion-logo.png" alt="Notion logo">
+                        </div>
+                        <h3>Notion</h3>
+                        <p>Organising notes, ideas and projects.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="skills-learning">
+
+                <div class="learning-content">
+                    <h2>Always Learning</h2>
+                    <p>
+                        I'm continuously developing my skills through
+                        personal projects, coursework and hands-on practice.
+                    </p>
+                </div>
+
+                <div class="closing-content">
+                    <span class="closing-label">A FINAL THOUGHT</span>
+
+                    <p class="closing-statement">
+                        Designing, building and learning along the way.
+                    </p>
+
+                    <span class="closing-symbol">✦</span>
+                </div>
+
+            </section>
+
+            <!--------------------------------------FOOTER-------------------------------------->
+            <footer>
+                <div class="footer-content">
+                    <h3>Mauelle Studios</h3>
+
+                    <p>
+                        Designing thoughtful digital experiences through UX and front-end development.
+                    </p>
+
+                    <div class="footer-links">
+                        <a href="mailto:preciousche3008@gmail.com">
+                            Email
+                        </a>
+
+                        <a href="https://github.com/preciousuche3008-cloud" target="_blank" rel="noopener noreferrer">
+                            GitHub
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/precious-uma-b2a4a0311" target="_blank"
+                            rel="noopener noreferrer">
+                            LinkedIn
+                        </a>
+
+                    </div>
+
+                    <p class="copyright">
+                        © 2026 Precious Uma. All rights reserved.
+                    </p>
+                </div>
+            </footer>
     </main>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

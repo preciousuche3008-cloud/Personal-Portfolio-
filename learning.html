@@ -20,19 +20,30 @@
 <!-------------------------------------Navigation--------------------------------------------->
 
 <body>
-    <header>
-        <h2>Mauelle Studios</h2>
-        <div class="nav-right">
-            <nav>
+    <header class="site-header">
+        <h2 class="site-brand">Mauelle Studios</h2>
+
+        <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false"
+            aria-controls="primary-navigation" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="nav-right" id="primary-navigation">
+            <nav aria-label="Main navigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">My Journey</a></li>
-                    <li><a href="projects.html"> Projects</a></li>
+                    <li><a href="projects.html">Projects</a></li>
                     <li><a href="skills.html">Skills</a></li>
                     <li><a href="learning.html">Learning</a></li>
                 </ul>
             </nav>
-            <a href="contact.html" class="contact-button">Let's work together</a>
+
+            <a href="contact.html" class="contact-button">
+                Let's work together
+            </a>
         </div>
     </header>
 
@@ -45,29 +56,43 @@
             </p>
         </section>
 
-        <!------------------------------Frontend Development----------------------------------------------->
-        <section class="learning-section">
+
+        <section class="learning-section frontend-learning">
+
             <div class="learning-intro">
+                <span class="section-label">CURRENT FOCUS</span>
                 <h2>Front-End</h2>
             </div>
 
             <article class="currently-learning">
+
                 <div class="learning-icon">
-                    <!--- the learning icon will be place here --->
+                    <img src="assets/images/front-end.png" alt="Front-End Development Icon">
                 </div>
 
                 <div class="learning-content">
-                    <span class="section-label">CURRENTLY LEARNING</span>
-                    <h3>Front-End Development</h3>
+
+                    <span class="section-label">
+                        CURRENTLY LEARNING
+                    </span>
+
+                    <h3>
+                        Front-End Development
+                    </h3>
+
                     <p class="learning-tech">
                         HTML &bull; CSS &bull; JavaScript
                     </p>
+
                     <p>
-                        Building stronger foundations in responsive<br>
+                        Building stronger foundations in responsive
                         design, accessibility and interactive websites.
                     </p>
+
                 </div>
+
             </article>
+
         </section>
 
         <section class="learning-section">
@@ -79,67 +104,100 @@
             <div class="learning-content-grid">
 
                 <div class="learning-image">
-                    <!--- the learning image will be place here --->
+                    <img src="assets/images/front-end.jpg" alt="Front-End Development Icon">
                 </div>
 
                 <div class="learning-notes">
                     <p>
                         I’ve been exploring how Figma helps me design more interactive experiences, especially when
-                        moving from web layouts to mobile flows.
-                        Playing with prototypes, transitions, and responsive frames is helping me understand how a
-                        design actually behaves, not just how it looks on the canvas
+                        moving from web layouts to mobile flows. Working with prototypes, transitions, and responsive
+                        frames is helping me understand how a design behaves, not just how it looks.
                     </p>
 
                     <p>
-                        I’m also practising how to break ideas into clear user stories — figuring out what people need,
-                        how they move through a product, and where design can make their journey smoother. Keeping
-                        things simple, intentional, and human is becoming a big part of how I approach every concept I
-                        learn.
+                        I’m also learning to break ideas into clear user stories — understanding what people need, how
+                        they move through a product, and where design can ease tension. Exploring the wider world of
+                        technology is helping me create more user‑friendly experiences by reducing both human and
+                        technical barriers.
                     </p>
                 </div>
             </div>
         </section>
 
         <section class="learning-section">
+
             <div class="learning-intro">
+                <span class="section-label">MY PROGRESS</span>
                 <h2>My Learning Journey</h2>
+                <p>
+                    A growing foundation across design, programming and
+                    front-end development.
+                </p>
             </div>
 
             <div class="learning-timeline">
+
                 <article class="learning-step">
                     <span class="step-number">01</span>
+
                     <h3>Graphic Design</h3>
-                    <p>Building the foundations of visual design and creative communication.</p>
+
+                    <p>
+                        Building the foundations of visual design
+                        and creative communication.
+                    </p>
                 </article>
 
                 <article class="learning-step">
                     <span class="step-number">02</span>
+
                     <h3>Python</h3>
-                    <p>Strengthening programming and problem-solving skills.</p>
+
+                    <p>
+                        Strengthening programming and
+                        problem-solving skills.
+                    </p>
                 </article>
 
                 <article class="learning-step">
                     <span class="step-number">03</span>
+
                     <h3>HTML & CSS</h3>
-                    <p>Building the foundations of web development.</p>
+
+                    <p>
+                        Building the foundations of
+                        web development.
+                    </p>
                 </article>
 
                 <article class="learning-step">
                     <span class="step-number">04</span>
+
                     <h3>UX / UI</h3>
-                    <p>Learning to think about users, flows and interfaces.</p>
+
+                    <p>
+                        Learning to think about users,
+                        flows and interfaces.
+                    </p>
                 </article>
 
                 <article class="learning-step">
                     <span class="step-number">05</span>
+
                     <h3>Front-End</h3>
-                    <p>Bringing design and code together.</p>
+
+                    <p>
+                        Bringing design and code together.
+                    </p>
                 </article>
+
             </div>
+
         </section>
 
         <!-- Closing Statement -->
         <section class="learning-closing">
+
             <span class="closing-label">
                 A LITTLE MORE ABOUT HOW I LEARN
             </span>
@@ -183,6 +241,7 @@
             </div>
         </footer>
     </main>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

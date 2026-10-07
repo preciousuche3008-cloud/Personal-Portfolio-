@@ -20,28 +20,41 @@
 <!-------------------------------------Navigation--------------------------------------------->
 
 <body>
-    <header>
-        <h2>Mauelle Studios</h2>
-        <div class="nav-right">
-            <nav>
+
+    <header class="site-header">
+        <h2 class="site-brand">Mauelle Studios</h2>
+
+        <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false"
+            aria-controls="primary-navigation" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="nav-right" id="primary-navigation">
+            <nav aria-label="Main navigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">My Journey</a></li>
-                    <li><a href="projects.html"> Projects</a></li>
+                    <li><a href="projects.html">Projects</a></li>
                     <li><a href="skills.html">Skills</a></li>
                     <li><a href="learning.html">Learning</a></li>
                 </ul>
             </nav>
-            <a href="contact.html" class="contact-button">Let's work together</a>
+
+            <a href="contact.html" class="contact-button">
+                Let's work together
+            </a>
         </div>
     </header>
+
 
     <!--------------------------------Main Content---------------------------------------------------->
     <main>
         <section class="hero">
             <div class="container">
                 <div class="hero-image">
-                    <img src="assets/images/headshot.jpg" alt="Portrait of Precious Uma">
+                    <img src="assets/images/Profile image.jpg" alt="Portrait of Precious Uma">
                 </div>
                 <div class="hero-text">
                     <span class="hero-label">DIGITAL DESIGN × DEVELOPMENT</span>
@@ -73,7 +86,7 @@
                     <article class="project-card">
 
                         <div class="project-image">
-                            <img src="assets/images/portfolio.png" alt="Preview of my portfolio website">
+                            <img src="assets/images/thumbnail.home.png" alt="Preview of my portfolio website">
                         </div>
 
                         <div class="project-content">
@@ -93,8 +106,8 @@
                             </div>
 
                             <div class="project-links">
-                                <a href="#">View case study</a>
-                                <a href="#">GitHub</a>
+                                <a href="portfolio-case-study.html">View case study</a>
+                                <a href="https://github.com/preciousuche3008-cloud/Personal-Portfolio-" target="_blank" rel="noopener noreferrer">GitHub</a>
                             </div>
                     </article>
 
@@ -110,6 +123,7 @@
             <h3>Mauelle Studios</h3>
 
             <p>
+                
                 Designing thoughtful digital experiences through UX and front-end development.
             </p>
 
@@ -132,5 +146,7 @@
             </p>
         </div>
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>

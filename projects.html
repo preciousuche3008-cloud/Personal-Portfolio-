@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,298 +18,334 @@
 <!--------------------------------------NAVIGATION-------------------------------------->
 
 <body>
-    <header>
-        <h2>Mauelle Studios</h2>
-        <div class="nav-right">
-            <nav>
+    <header class="site-header">
+        <h2 class="site-brand">Mauelle Studios</h2>
+
+        <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false"
+            aria-controls="primary-navigation" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="nav-right" id="primary-navigation">
+            <nav aria-label="Main navigation">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">My Journey</a></li>
-                    <li><a href="projects.html"> Projects</a></li>
+                    <li><a href="projects.html">Projects</a></li>
                     <li><a href="skills.html">Skills</a></li>
                     <li><a href="learning.html">Learning</a></li>
                 </ul>
             </nav>
-            <a href="contact.html" class="contact-button">Let's work together</a>
+
+            <a href="contact.html" class="contact-button">
+                Let's work together
+            </a>
         </div>
     </header>
+
+    <main>
+
+        <!-- Projects Hero -->
+        <section class="projects-hero">
+            <h1>Projects</h1>
+            <p>
+                A showcase of my work, skills and learning journey in UX / UI and front-end development.
+            </p>
+        </section>
+
+
+        <!-- Project One -->
+        <section class="project-section">
+
+            <h2>Project One</h2>
+
+            <div class="project-card">
+
+                <div class="project-image">
+                    <img src="assets/images/thumbnail.home.png" alt="Description of project">
+                </div>
+
+                <div class="project-info">
+                    <h3>Personal Portfolio Website</h3>
+
+                    <p class="project-type">
+                        UX / UI · Front-End Development
+                    </p>
+
+                    <p class="project-summary">
+                        A responsive personal portfolio designed and developed
+                        to showcase my work, skills and learning journey.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>UX/UI</span>
+                        <span>Responsive Design</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="portfolio-case-study.html" target="_blank" rel="noopener noreferrer">View case
+                            study</a>
+                        <a href="https://github.com/preciousuche3008-cloud/Personal-Portfolio-" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="project-description">
+
+                <h3>Project Overview</h3>
+
+                <p>
+                    This project involved designing and developing my personal portfolio website to showcase my skills,
+                    projects, and learning journey in UX/UI and front-end development.
+                    I wanted to create a website that felt personal while also demonstrating my ability to build a
+                    responsive and user-friendly digital experience.
+                    The project took me from the initial planning and wireframing stage through to designing the
+                    interface
+                    in Figma and developing the website using HTML, CSS, and JavaScript.
+                    I focused on creating a clear structure, consistent visual style, and responsive layouts that work
+                    across different screen sizes.
+                </p>
+
+                <h3>Process & Decisions</h3>
+
+                <p>
+                    I began by sketching ideas on paper before researching how personal portfolios were structured. I
+                    then moved into Figma, where I combined my initial ideas into a more organised interface and
+                    established the visual direction for Mauelle Studios.
+                    During development, I made decisions based on both aesthetics and usability. I wanted the website to
+                    have a calm, soft and elegant feel while still being easy to navigate and understand. The name
+                    Mauelle Studios also influenced the visual direction, leading me towards a swan-inspired identity
+                    and a simple, graceful design.
+                    As I developed the website, I refined some of my original ideas. For example, I initially considered
+                    showing detailed information about every skill and tool, but realised that this could overwhelm the
+                    viewer. I simplified the Skills page and used the Learning page to communicate my development
+                    journey instead.
+                    One of the biggest challenges was adapting the design for mobile. The Learning Journey timeline was
+                    particularly difficult because the elements did not initially stack and align correctly. I had to
+                    rethink how the timeline would work at a smaller screen size while maintaining the visual style and
+                    readability of the desktop version.
+                </p>
+
+            </div>
+
+            <div class="project-reflection">
+
+                <p>
+                    You can’t move forward if you don’t look back.
+                </p>
+
+                <span>
+                    This project taught me to document my work and design
+                    with clarity across devices.
+                </span>
+
+            </div>
+        </section>
+
+        <!-- Project Two
+        <section class="project-section">
+
+            <h2>Project Two</h2>
+
+            <div class="project-card">
+
+                <div class="project-image">
+                    <img src="assets/images/portfolio.png" alt="Description of project">
+                </div>
+
+                <div class="project-info">
+                    <h3>Personal Portfolio Website</h3>
+
+                    <p class="project-type">
+                        UX/UI · Front-End Development
+                    </p>
+
+                    <p class="project-summary">
+                        A responsive personal portfolio designed and developed
+                        to showcase my work, skills and learning journey.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>UX/UI</span>
+                        <span>Responsive Design</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#">View case study</a>
+                        <a href="#">Live site</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="project-description">
+
+                <h3>Project Overview</h3>
+
+                <p>
+                    This project involved designing and developing my personal portfolio website to showcase my skills,
+                    projects, and learning journey in UX/UI and front-end development.
+                    I wanted to create a website that felt personal while also demonstrating my ability to build a
+                    responsive and user-friendly digital experience.
+                    The project took me from the initial planning and wireframing stage through to designing the
+                    interface
+                    in Figma and developing the website using HTML, CSS, and JavaScript.
+                    I focused on creating a clear structure, consistent visual style, and responsive layouts that work
+                    across different screen sizes.
+                </p>
+
+                <h3>Process & Decisions</h3>
+
+                <p>
+                    More information about the project, process,
+                    decisions and what I learned will go here.
+                </p>
+
+            </div>
+
+            <div class="project-reflection">
+
+                <h3>Reflection</h3>
+
+                <p>
+                    A short reflection about what this project taught me.
+                </p>
+
+            </div>
+        </section> -->
+
+
+        <!-- Project Three
+        <section class="project-section">
+
+            <h2>Project Three</h2>
+
+            <div class="project-card">
+
+                <div class="project-image">
+                    <img src="assets/images/portfolio.png" alt="Description of project">
+                </div>
+
+                <div class="project-info">
+                    <h3>Personal Portfolio Website</h3>
+
+                    <p class="project-type"> -->
+        <!-- UX/UI · Front-End Development
+                    </p>
+
+                    <p class="project-summary">
+                        A responsive personal portfolio designed and developed
+                        to showcase my work, skills and learning journey.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>UX/UI</span>
+                        <span>Responsive Design</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#">View case study</a>
+                        <a href="#">Live site</a>
+                    </div>
+                </div>
+
+            </div> -->
+        <!-- 
+            <div class="project-description">
+
+                <h3>Project Overview</h3>
+
+                <p>
+                    This project involved designing and developing my personal portfolio website to showcase my skills,
+                    projects, and learning journey in UX/UI and front-end development.
+                    I wanted to create a website that felt personal while also demonstrating my ability to build a
+                    responsive and user-friendly digital experience.
+                    The project took me from the initial planning and wireframing stage through to designing the
+                    interface
+                    in Figma and developing the website using HTML, CSS, and JavaScript.
+                    I focused on creating a clear structure, consistent visual style, and responsive layouts that work
+                    across different screen sizes.
+                </p>
+
+                <h3>Process & Decisions</h3>
+
+                <p>
+                    More information about the project, process,
+                    decisions and what I learned will go here.
+                </p>
+
+            </div>
+
+            <div class="project-reflection">
+
+                <h3>Reflection</h3>
+
+                <p>
+                    A short reflection about what this project taught me.
+                </p>
+
+            </div>
+        </section> -->
+
+
+        <!-- Closing Statement -->
+        <section class="learning-closing">
+            <span class="closing-label">
+                A LITTLE MORE ABOUT HOW I LEARN
+            </span>
+
+            <p class="closing-statement">
+                Web Design &bull; Team Building &bull; Conceptual Design
+                &bull; User Empathy &bull; Data Driven Junkie
+            </p>
+
+            <span class="closing-symbol">✦</span>
+
+        </section>
+        <footer>
+            <div class="footer-content">
+                <h3>Mauelle Studios</h3>
+
+                <p>
+                    Designing thoughtful digital experiences through UX and front-end development.
+                </p>
+
+                <div class="footer-links">
+                    <a href="mailto:preciousche3008@gmail.com">
+                        Email
+                    </a>
+
+                    <a href="https://github.com/preciousuche3008-cloud" target="_blank" rel="noopener noreferrer">
+                        GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/precious-uma-b2a4a0311" target="_blank"
+                        rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+
+                </div>
+
+                <p class="copyright">
+                    © 2026 Precious Uma. All rights reserved.
+                </p>
+            </div>
+        </footer>
+        <script src="assets/js/script.js"></script>
 </body>
-
-<main>
-
-    <!-- Projects Hero -->
-    <section class="projects-hero">
-        <h1>Projects</h1>
-        <p>
-            A showcase of my work, skills and learning journey in UX/UI and front-end development.
-        </p>
-    </section>
-
-
-    <!-- Project One -->
-    <section class="project-section">
-
-        <h2>Project One</h2>
-
-        <div class="project-card">
-
-            <div class="project-image">
-                <img src="assets/images/portfolio.png" alt="Description of project">
-            </div>
-
-            <div class="project-info">
-                <h3>Personal Portfolio Website</h3>
-
-                <p class="project-type">
-                    UX/UI · Front-End Development
-                </p>
-
-                <p class="project-summary">
-                    A responsive personal portfolio designed and developed
-                    to showcase my work, skills and learning journey.
-                </p>
-
-                <div class="project-tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>UX/UI</span>
-                    <span>Responsive Design</span>
-                </div>
-
-                <div class="project-links">
-                    <a href="#">View case study</a>
-                    <a href="#">Live site</a>
-                </div>
-            </div>
-
-        </div>
-
-        
-        <div class="project-description">
-
-            <h3>Project Overview</h3>
-
-            <p>
-                This project involved designing and developing my personal portfolio website to showcase my skills,
-                projects, and learning journey in UX/UI and front-end development.
-                I wanted to create a website that felt personal while also demonstrating my ability to build a
-                responsive and user-friendly digital experience.
-                The project took me from the initial planning and wireframing stage through to designing the interface
-                in Figma and developing the website using HTML, CSS, and JavaScript.
-                I focused on creating a clear structure, consistent visual style, and responsive layouts that work
-                across different screen sizes.
-            </p>
-
-            <h3>Process & Decisions</h3>
-
-            <p>
-                More information about the project, process,
-                decisions and what I learned will go here.
-            </p>
-
-        </div>
-
-        <div class="project-reflection">
-
-            <h3>Reflection</h3>
-
-            <p>
-                A short reflection about what this project taught me.
-            </p>
-
-        </div>
-    </section>
-
-    <!-- Project Two -->
-    <section class="project-section">
-
-        <h2>Project Two</h2>
-
-        <div class="project-card">
-
-            <div class="project-image">
-                <img src="assets/images/portfolio.png" alt="Description of project">
-            </div>
-
-            <div class="project-info">
-                <h3>Personal Portfolio Website</h3>
-
-                <p class="project-type">
-                    UX/UI · Front-End Development
-                </p>
-
-                <p class="project-summary">
-                    A responsive personal portfolio designed and developed
-                    to showcase my work, skills and learning journey.
-                </p>
-
-                <div class="project-tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>UX/UI</span>
-                    <span>Responsive Design</span>
-                </div>
-
-                <div class="project-links">
-                    <a href="#">View case study</a>
-                    <a href="#">Live site</a>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="project-description">
-
-            <h3>Project Overview</h3>
-
-            <p>
-                This project involved designing and developing my personal portfolio website to showcase my skills,
-                projects, and learning journey in UX/UI and front-end development.
-                I wanted to create a website that felt personal while also demonstrating my ability to build a
-                responsive and user-friendly digital experience.
-                The project took me from the initial planning and wireframing stage through to designing the interface
-                in Figma and developing the website using HTML, CSS, and JavaScript.
-                I focused on creating a clear structure, consistent visual style, and responsive layouts that work
-                across different screen sizes.
-            </p>
-
-            <h3>Process & Decisions</h3>
-
-            <p>
-                More information about the project, process,
-                decisions and what I learned will go here.
-            </p>
-
-        </div>
-
-        <div class="project-reflection">
-
-            <h3>Reflection</h3>
-
-            <p>
-                A short reflection about what this project taught me.
-            </p>
-
-        </div>
-    </section>
-
-
-    <!-- Project Three -->
-    <section class="project-section">
-
-        <h2>Project Three</h2>
-
-        <div class="project-card">
-
-            <div class="project-image">
-                <img src="assets/images/portfolio.png" alt="Description of project">
-            </div>
-
-            <div class="project-info">
-                <h3>Personal Portfolio Website</h3>
-
-                <p class="project-type">
-                    UX/UI · Front-End Development
-                </p>
-
-                <p class="project-summary">
-                    A responsive personal portfolio designed and developed
-                    to showcase my work, skills and learning journey.
-                </p>
-
-                <div class="project-tags">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                    <span>UX/UI</span>
-                    <span>Responsive Design</span>
-                </div>
-
-                <div class="project-links">
-                    <a href="#">View case study</a>
-                    <a href="#">Live site</a>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="project-description">
-
-            <h3>Project Overview</h3>
-
-            <p>
-                This project involved designing and developing my personal portfolio website to showcase my skills,
-                projects, and learning journey in UX/UI and front-end development.
-                I wanted to create a website that felt personal while also demonstrating my ability to build a
-                responsive and user-friendly digital experience.
-                The project took me from the initial planning and wireframing stage through to designing the interface
-                in Figma and developing the website using HTML, CSS, and JavaScript.
-                I focused on creating a clear structure, consistent visual style, and responsive layouts that work
-                across different screen sizes.
-            </p>
-
-            <h3>Process & Decisions</h3>
-
-            <p>
-                More information about the project, process,
-                decisions and what I learned will go here.
-            </p>
-
-        </div>
-
-        <div class="project-reflection">
-
-            <h3>Reflection</h3>
-
-            <p>
-                A short reflection about what this project taught me.
-            </p>
-
-        </div>
-    </section>
-
-
-    <!-- Closing Statement -->
-    <section class="projects-closing">
-        <p>
-            Web Design <span class="closing-icon icon-bow" aria-hidden="true"></span>
-            Team Building <span class="closing-icon icon-diamond" aria-hidden="true"></span>
-            Conceptual Design <span class="closing-icon icon-flower" aria-hidden="true"></span> User Empathy <span
-                class="closing-icon icon-bow" aria-hidden="true"></span>
-            Data Driven Junkie <span class="closing-icon icon-quarter" aria-hidden="true"></span>
-        </p>
-    </section>
-    <footer>
-        <div class="footer-content">
-            <h3>Mauelle Studios</h3>
-
-            <p>
-                Designing thoughtful digital experiences through UX and front-end development.
-            </p>
-
-            <div class="footer-links">
-                <a href="mailto:preciousche3008@gmail.com">
-                    Email
-                </a>
-
-                <a href="https://github.com/preciousuche3008-cloud" target="_blank" rel="noopener noreferrer">
-                    GitHub
-                </a>
-
-                <a href="https://www.linkedin.com/in/precious-uma-b2a4a0311" target="_blank" rel="noopener noreferrer">
-                    LinkedIn
-                </a>
-
-            </div>
-
-            <p class="copyright">
-                © 2026 Precious Uma. All rights reserved.
-            </p>
-        </div>
-    </footer>
-    </body>
 </main>
 
 </html>
