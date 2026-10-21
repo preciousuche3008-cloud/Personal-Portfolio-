@@ -866,7 +866,6 @@ footer {
 }
 
 
-
 .learning-image {
     min-height: 320px;
 
@@ -1229,24 +1228,27 @@ footer {
     outline: none;
 }
 
-
-.send-message-button {
+.contact-form button {
     align-self: flex-start;
+
     padding: 12px 22px;
+
     border: none;
     border-radius: 8px;
+
     background-color: #4A3428;
     color: #FFFFFF;
+
     font-family: 'Lora', serif;
     font-size: 15px;
-    text-decoration: none;
+
     cursor: pointer;
+
     transition: opacity 0.2s ease,
-    transform 0.2s ease;
+        transform 0.2s ease;
 }
 
-
-.contact-form .send-message-button:hover {
+.contact-form button:hover {
     opacity: 0.85;
     transform: translateY(-2px);
 }
